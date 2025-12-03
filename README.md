@@ -33,3 +33,25 @@ A beautiful, fully functional **Notes-style mobile app** built with **React Nati
 - **Navigation**: React Navigation
 
 ## Project Structure
+src/
+├── components/       # Reusable UI components (NoteCard, MediaUploader)
+├── screens/          # HomeScreen, NoteScreen, Auth screens
+├── supabase/         # Supabase client & storage utils
+└── navigation/       # App navigation setup
+
+
+## Setup & Installation
+
+### Prerequisites
+- Node.js (v18+)
+- Expo CLI or EAS CLI
+- Expo Go app (for testing on phone)
+
+### Steps
+1. **Clone the repository**
+   git clone https://ekcimafranca/Finals-Compre-Sysmain-clone.git
+   cd notes-app
+
+   Install dependenciesBashnpm install
+   # or
+    yarn install
