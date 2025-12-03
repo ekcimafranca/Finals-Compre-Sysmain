@@ -9,9 +9,8 @@ A beautiful, fully functional **Notes-style mobile app** built with **React Nati
 
 ## Group Members
 - **Leader**: Julito Villaraza
-- [Member 2 Full Name]
-- [Member 3 Full Name]
-- [Member 4 Full Name] *(if applicable)*
+- Raymund Elum
+- Loirveal Acoin
 
 ## Features
 - User Authentication (Sign Up / Sign In) with Supabase Auth
@@ -55,5 +54,6 @@ src/
    **Install dependencies**
    npm install or
     yarn install
+
 
 
