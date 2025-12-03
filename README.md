@@ -52,6 +52,6 @@ src/
    git clone https://ekcimafranca/Finals-Compre-Sysmain-clone.git
    cd notes-app
 
-   Install dependenciesBashnpm install
-   # or
+   Install dependenciesBashnpm install or
     yarn install
+
