@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Notes App",
+    "slug": "notes-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to take photos for notes.",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to upload images and videos.",
+        "NSMicrophoneUsageDescription": "This app needs microphone access to record videos."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.devnik213.notesapp"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Notes to access your photos.",
+          "cameraPermission": "Allow Notes to access your camera."
+        }
+      ],
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "06d2895f-3b8f-48e5-a8d9-aee940738e22"
+      }
+    }
+  }
+}
